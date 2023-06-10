@@ -1,40 +1,51 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <title>Box model</title>
-    <style>
-    #ex01{
-        height: 433px;
-        width :660px;
-        margin:50px;
-        padding:25px;
-        border:3px solid salmon ;
-        background:url(https://images.ctfassets.net/cnu0m8re1exe/jmlLabf8AlF5p7MDfMTe4/1d1ecc3344ab5695381fe7fd6b17b404/shutterstock_1834094695.jpg?fm=jpg&fl=progressive&w=660&h=433&fit=fill);
-        box-sizing:border-box;
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    @import  url(https://fonts.googleapis.com/css?family=Noto+Serif+SC:wght@200&display=swap);
+
+    body{
+        font-family: 'Noto Serif SC', serif;
+        background-color: blanchedalmond;
     }
-    #ex02{height: 433px;
-        width :660px;
-        margin:50px;
-        padding:25px;
-        border:3px solid salmon ;
-        background:url(https://images.ctfassets.net/cnu0m8re1exe/jmlLabf8AlF5p7MDfMTe4/1d1ecc3344ab5695381fe7fd6b17b404/shutterstock_1834094695.jpg?fm=jpg&fl=progressive&w=660&h=433&fit=fill);
-        box-sizing:border-box;
-    }
-    #ex03{height: 433px;
-        width :660px;
-        margin:50px;
-        padding:25px;
-        border:3px solid salmon ;
-        background:url(https://images.ctfassets.net/cnu0m8re1exe/jmlLabf8AlF5p7MDfMTe4/1d1ecc3344ab5695381fe7fd6b17b404/shutterstock_1834094695.jpg?fm=jpg&fl=progressive&w=660&h=433&fit=fill);
-        box-sizing:padding-box;
-    }
-    </style>
-</head>   
-    <body>
-        <div id="ex01"></div>
-        <div id="ex02"></div>
-        <div id="ex03"></div>
-    </body>
-    </html>
+#ex01{
+    background-image:url(images/background.jpg);
+        background-repeat: no-repeat;
+        height: 400px ;
+        margin: 100px;
+        background-position: 50%;
+ 
+
+}
+#ex02{
+    font-family: 'Noto Serif SC', serif;
+    text-align: center;
+}
+#navbar{
+    text-align: center;
+    font-family: 'Noto Serif SC', serif;
+    word-spacing: 300px;
+    font-size: 30px;
     
+}
+  </style>
+</head>   
+<body>
+<div>
+    <div id="ex01"></div>
+    <div id="navbar" >
+        <a href="#">甜点</a>
+        <a href="#">配料</a>
+        <a href="#">菜单</a>
+        <a href="#">饮料</a>
+
+    </div>
+    <div id="ex02">
+        <h1>动物餐厅</h1>
+        <p>此餐厅是去年开始营业,店员上班的时候,会带着自己的宠物一起,其中有哈士奇、博美和malamute。有宠物的你，来这里用餐时，可以带着自己的毛小孩来，结识新伙伴；没有宠物的你，也可以来这里喝喝咖啡，吃个下午茶，享受被宠物包围的喜乐。</p>
+    </div>
+</div>
+</body>
+</html>
